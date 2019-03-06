@@ -1,0 +1,6 @@
+framework module MapxusBaseSDK {
+  umbrella header "MapxusBaseSDK.h"
+
+  export *
+  module * { export * }
+}
