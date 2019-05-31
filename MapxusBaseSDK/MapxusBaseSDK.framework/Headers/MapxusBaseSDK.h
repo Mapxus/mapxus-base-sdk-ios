@@ -17,4 +17,5 @@ FOUNDATION_EXPORT const unsigned char MapxusBaseSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <MapxusBaseSDK/PublicHeader.h>
 
 #import "MXMMapServices.h"
-
+#import "MXMServiceDelegate.h"
+#import "MXMErrorDefined.h"
