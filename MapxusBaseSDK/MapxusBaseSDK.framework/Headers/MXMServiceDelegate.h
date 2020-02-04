@@ -12,13 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MXMServiceDelegate <NSObject>
 
+/// 注册成功回调
+- (void)registerMXMServiceSuccess;
 
 /**
  注册错误回调
 
  @param error 错误信息
  */
-- (void)registerFailWithError:(NSError *)error;
+- (void)registerMXMServiceFailWithError:(NSError *)error;
 
 
 @end
