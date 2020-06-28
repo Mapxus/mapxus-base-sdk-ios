@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MapxusBaseSDK"
-  s.version      = "3.12.1"
+  s.version      = "3.13.0"
   s.summary      = "Mapxus Map basic module"
   s.description  = <<-DESC
   Provide Mapxus Map services.
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.module_name  = "MapxusBaseSDK"
   s.vendored_frameworks = "MapxusBaseSDK/MapxusBaseSDK.framework"
-  s.dependency "AFNetworking/Serialization", "~> 3.2"
-  s.dependency "AFNetworking/Security", "~> 3.2"
-  s.dependency "AFNetworking/Reachability", "~> 3.2"
-  s.dependency "AFNetworking/NSURLSession", "~> 3.2"
+  s.dependency "AFNetworking/Serialization", "~> 4.0"
+  s.dependency "AFNetworking/Security", "~> 4.0"
+  s.dependency "AFNetworking/Reachability", "~> 4.0"
+  s.dependency "AFNetworking/NSURLSession", "~> 4.0"
   s.dependency "YYModel", "~> 1.0.4"
 end
