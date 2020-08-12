@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "MapxusBaseSDK"
-  s.version      = "3.13.0"
+  s.version      = "3.14.0"
   s.summary      = "Mapxus Map basic module"
   s.description  = <<-DESC
-  Provide Mapxus Map services.
+                   Provide Mapxus Map services.
                    DESC
   s.homepage     = "http://www.mapxus.com"
   s.license      = { :type => "MIT", :file => "LICENSE" }
