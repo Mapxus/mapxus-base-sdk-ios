@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MapxusBaseSDK"
-  s.version      = "3.15.0"
+  s.version      = "3.16.0"
   s.summary      = "Mapxus Map basic module"
   s.description  = <<-DESC
                    Provide Mapxus Map services.
