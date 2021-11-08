@@ -2,15 +2,15 @@
 Pod::Spec.new do |s|
 
 
-  version = '3.22.1'
+  version = '4.0.0'
 
   s.name         = 'MapxusBaseSDK'
   s.version      = version
 
   s.summary      = 'Mapxus Map basic module'
   s.description  = 'Provide Mapxus Map services.'
-  s.homepage     = 'http://www.mapxus.com'
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage     = 'https://www.mapxus.com'
+  s.license      = { :type => 'BSD 3-Clause', :file => 'LICENSE' }
   s.author       = { 'Mapxus' => 'developer@maphive.io' }
 
   s.platform     = :ios, '9.0'
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.module_name  = 'MapxusBaseSDK'
-  s.vendored_frameworks = 'dynamic/MapxusBaseSDK.framework'
+  s.vendored_frameworks = 'dynamic/MapxusBaseSDK.xcframework'
 
   s.dependency "AFNetworking/Serialization", "~> 4.0"
   s.dependency "AFNetworking/Security", "~> 4.0"
