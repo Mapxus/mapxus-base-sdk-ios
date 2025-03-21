@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 
-  version = '7.3.0'
+  version = '7.4.0'
 
   s.name         = 'MapxusBaseSDK'
   s.version      = version
@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
   s.module_name  = 'MapxusBaseSDK'
   s.vendored_frameworks = 'dynamic/MapxusBaseSDK.xcframework'
 
-  s.dependency "AFNetworking/Serialization", "~> 4.0.3"
-  s.dependency "AFNetworking/Security", "~> 4.0.3"
-  s.dependency "AFNetworking/Reachability", "~> 4.0.3"
-  s.dependency "AFNetworking/NSURLSession", "~> 4.0.3"
+  s.dependency "AFNetworking/Serialization", "~> 4.0.4"
+  s.dependency "AFNetworking/Security", "~> 4.0.4"
+  s.dependency "AFNetworking/Reachability", "~> 4.0.4"
+  s.dependency "AFNetworking/NSURLSession", "~> 4.0.4"
   s.dependency "YYModel", "~> 1.0.6"
 
 
